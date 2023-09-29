@@ -1,0 +1,13 @@
+/* TAG */
+article{
+    background-color: purple;
+}
+/* CLASSE */
+.fonte{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    background-color: blueviolet;
+}
+#id2{
+    background-color: black;
+}
