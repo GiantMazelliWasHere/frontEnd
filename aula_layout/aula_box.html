@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Layouts</title>
+
+    <style>
+
+        /* Container/painel/tela um agrupamento de componentes */
+        /* display */
+
+        /* absolut é em relação a tela | relative é em relaçãoaonde ela está */
+        .container{
+
+            display: block;
+            background-color: red;
+            /* margin: 10px 10px; right-left top-bottom*/
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+
+            width: 400px;
+            /* height: 150px; */
+        }
+
+        /* display: como ele apresenta | position: como ele se posiciona em relação a pagina */
+
+        .item{
+            /* margin position absolute */
+            margin: 10px;
+            background-color: blueviolet;
+            /* Distância entre conteudo e borda */
+            padding: 10px;
+            border: 10px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    
+    Bloco - Box
+    <div class="container">
+        <p class="item">Teste 1</p>
+    </div>
+</body>
+</html>
